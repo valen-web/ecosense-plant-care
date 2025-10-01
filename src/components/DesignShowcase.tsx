@@ -2,12 +2,12 @@ import { Palette, Grid, Star } from "lucide-react";
 
 export const DesignShowcase = () => {
   const designFeatures = [
-    "Minimalist aesthetic",
-    "Premium materials",
-    "Multiple color options",
-    "Modular components",
-    "Space-efficient design",
-    "LED status indicators"
+    "Estética minimalista",
+    "Materiales premium",
+    "Múltiples opciones de color",
+    "Componentes modulares",
+    "Diseño eficiente en espacio",
+    "Indicadores LED de estado"
   ];
 
   return (
@@ -22,8 +22,8 @@ export const DesignShowcase = () => {
                 <div className="aspect-video bg-muted/30 rounded-xl mb-4 flex items-center justify-center">
                   <Palette className="h-12 w-12 text-muted-foreground" />
                 </div>
-                <h4 className="font-semibold mb-2">Premium Design</h4>
-                <p className="text-sm text-muted-foreground">Seamlessly blends technology with nature</p>
+                <h4 className="font-semibold mb-2">Diseño Premium</h4>
+                <p className="text-sm text-muted-foreground">Fusiona perfectamente tecnología con naturaleza</p>
               </div>
               
               {/* Modular showcase */}
@@ -31,8 +31,8 @@ export const DesignShowcase = () => {
                 <div className="bg-primary-light p-3 rounded-lg mb-3 w-fit">
                   <Grid className="h-5 w-5 text-primary" />
                 </div>
-                <h4 className="font-medium text-sm mb-2">Modular System</h4>
-                <p className="text-xs text-muted-foreground">Connect multiple pots</p>
+                <h4 className="font-medium text-sm mb-2">Sistema Modular</h4>
+                <p className="text-xs text-muted-foreground">Conecta múltiples macetas</p>
               </div>
               
               {/* Premium materials */}
@@ -40,8 +40,8 @@ export const DesignShowcase = () => {
                 <div className="bg-primary-light p-3 rounded-lg mb-3 w-fit">
                   <Star className="h-5 w-5 text-primary" />
                 </div>
-                <h4 className="font-medium text-sm mb-2">Premium Feel</h4>
-                <p className="text-xs text-muted-foreground">High-quality materials</p>
+                <h4 className="font-medium text-sm mb-2">Calidad Premium</h4>
+                <p className="text-xs text-muted-foreground">Materiales de alta calidad</p>
               </div>
             </div>
           </div>
@@ -50,13 +50,13 @@ export const DesignShowcase = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <h2 className="text-4xl font-bold leading-tight">
-                Not just functional,
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> beautifully designed</span>
+                No solo funcional,
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> bellamente diseñado</span>
               </h2>
               
               <p className="text-xl text-muted-foreground leading-relaxed">
-                EcoSense isn't just a smart pot – it's a premium decorative element that enhances your living space 
-                while providing cutting-edge plant care technology.
+                EcoSense no es solo una maceta inteligente, es un elemento decorativo premium que realza tu espacio 
+                mientras proporciona tecnología de cuidado de plantas de vanguardia.
               </p>
             </div>
 
@@ -74,10 +74,10 @@ export const DesignShowcase = () => {
             </div>
 
             <div className="bg-primary-light/50 p-6 rounded-xl">
-              <h4 className="font-semibold mb-2">Modular Network</h4>
+              <h4 className="font-semibold mb-2">Red Modular</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Connect multiple EcoSense pots to create a synchronized garden ecosystem. 
-                Manage all your plants from a single app interface.
+                Conecta múltiples macetas EcoSense para crear un ecosistema de jardín sincronizado. 
+                Gestiona todas tus plantas desde una sola interfaz de aplicación.
               </p>
             </div>
           </div>

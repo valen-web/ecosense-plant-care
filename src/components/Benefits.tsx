@@ -3,23 +3,23 @@ import { Droplets, Smartphone, Leaf, Palette } from "lucide-react";
 const benefits = [
   {
     icon: Droplets,
-    title: "Automatic irrigation & fertilization",
-    description: "Double tank system provides precise watering and nutrition based on your plant's real-time needs."
+    title: "Riego y fertilización automáticos",
+    description: "Sistema de doble tanque que proporciona riego y nutrición precisos según las necesidades de tu planta en tiempo real."
   },
   {
     icon: Smartphone,
-    title: "Advanced sensors with real-time data",
-    description: "Monitor humidity, temperature, light, and pH levels with instant updates to your smartphone."
+    title: "Sensores avanzados con datos en tiempo real",
+    description: "Monitorea humedad, temperatura, luz y niveles de pH con actualizaciones instantáneas en tu smartphone."
   },
   {
     icon: Leaf,
-    title: "Full control from your app", 
-    description: "AI diagnostics, care reminders, and expert tips delivered straight to your phone."
+    title: "Control total desde tu app", 
+    description: "Diagnósticos de IA, recordatorios de cuidado y consejos de expertos entregados directamente en tu teléfono."
   },
   {
     icon: Palette,
-    title: "Premium & customizable design",
-    description: "Modular, aesthetic design that complements your home while keeping your plants thriving."
+    title: "Diseño premium y personalizable",
+    description: "Diseño modular y estético que complementa tu hogar mientras mantiene tus plantas prósperas."
   }
 ];
 
@@ -29,10 +29,10 @@ export const Benefits = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl font-bold mb-4">
-            Why choose <span className="bg-gradient-hero bg-clip-text text-transparent">EcoSense</span>?
+            ¿Por qué elegir <span className="bg-gradient-hero bg-clip-text text-transparent">EcoSense</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Advanced technology meets beautiful design for effortless plant care
+            Tecnología avanzada con diseño elegante para el cuidado de plantas sin esfuerzo
           </p>
         </div>
 

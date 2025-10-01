@@ -3,23 +3,23 @@ import { Search, Settings, Heart, Bell } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Detect",
-    description: "Advanced sensors continuously monitor your plant's environment and health indicators."
+    title: "Detecta",
+    description: "Sensores avanzados monitorean continuamente el entorno y los indicadores de salud de tu planta."
   },
   {
     icon: Settings,
-    title: "Adjust",
-    description: "AI analyzes the data and automatically adjusts watering, nutrients, and care schedules."
+    title: "Ajusta",
+    description: "La IA analiza los datos y ajusta automáticamente el riego, nutrientes y programas de cuidado."
   },
   {
     icon: Heart,
-    title: "Care", 
-    description: "Your plant receives optimal care 24/7 without any effort required from you."
+    title: "Cuida", 
+    description: "Tu planta recibe cuidado óptimo las 24 horas sin requerir ningún esfuerzo de tu parte."
   },
   {
     icon: Bell,
-    title: "Notify",
-    description: "Get updates, tips, and alerts on your phone to stay connected with your plant's progress."
+    title: "Notifica",
+    description: "Recibe actualizaciones, consejos y alertas en tu teléfono para estar conectado con el progreso de tu planta."
   }
 ];
 
@@ -29,10 +29,10 @@ export const HowItWorks = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl font-bold mb-4">
-            How <span className="bg-gradient-hero bg-clip-text text-transparent">EcoSense</span> works
+            Cómo funciona <span className="bg-gradient-hero bg-clip-text text-transparent">EcoSense</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple, smart, and completely automated plant care in four easy steps
+            Cuidado de plantas simple, inteligente y completamente automatizado en cuatro pasos
           </p>
         </div>
 
@@ -74,9 +74,9 @@ export const HowItWorks = () => {
         {/* CTA after process */}
         <div className="text-center mt-16 animate-fade-in-up">
           <div className="bg-gradient-card p-8 rounded-2xl shadow-medium max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">Ready to revolutionize your plant care?</h3>
+            <h3 className="text-2xl font-bold mb-4">¿Listo para revolucionar el cuidado de tus plantas?</h3>
             <p className="text-muted-foreground mb-6">
-              Join thousands of plant lovers who've already discovered effortless gardening
+              Únete a miles de amantes de las plantas que ya han descubierto la jardinería sin esfuerzo
             </p>
           </div>
         </div>

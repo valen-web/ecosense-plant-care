@@ -3,7 +3,7 @@ import { Benefits } from "@/components/Benefits";
 import { HowItWorks } from "@/components/HowItWorks";
 import { VacationMode } from "@/components/VacationMode";
 import { DesignShowcase } from "@/components/DesignShowcase";
-import { SignupForm } from "@/components/SignupForm";
+import { ProductSelector } from "@/components/ProductSelector";
 import { TrustSection } from "@/components/TrustSection";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
       <HowItWorks />
       <VacationMode />
       <DesignShowcase />
-      <SignupForm />
+      <ProductSelector />
       <TrustSection />
     </main>
   );

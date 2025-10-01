@@ -8,12 +8,12 @@ export const TrustSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-4xl font-bold">
-                Building the future of 
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> smart gardening</span>
+                Construyendo el futuro de la 
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> jardinería inteligente</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                We're building the next generation of smart gardening technology. Your opinion counts – 
-                join our community of early testers and help shape the future of plant care!
+                Estamos construyendo la próxima generación de tecnología de jardinería inteligente. 
+                Únete a nuestra comunidad y descubre cómo cuidar tus plantas nunca ha sido tan fácil.
               </p>
             </div>
 
@@ -22,9 +22,9 @@ export const TrustSection = () => {
                 <div className="bg-primary-light p-4 rounded-full w-16 h-16 mx-auto flex items-center justify-center">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg">Community Driven</h3>
+                <h3 className="font-semibold text-lg">Impulsado por la Comunidad</h3>
                 <p className="text-muted-foreground">
-                  Built with feedback from passionate plant parents like you
+                  Construido con feedback de apasionados de las plantas como tú
                 </p>
               </div>
 
@@ -32,9 +32,9 @@ export const TrustSection = () => {
                 <div className="bg-primary-light p-4 rounded-full w-16 h-16 mx-auto flex items-center justify-center">
                   <Lightbulb className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg">Innovation First</h3>
+                <h3 className="font-semibold text-lg">Innovación Primero</h3>
                 <p className="text-muted-foreground">
-                  Cutting-edge AI and sensor technology for superior plant care
+                  Tecnología de IA y sensores de vanguardia para un cuidado superior
                 </p>
               </div>
 
@@ -42,25 +42,25 @@ export const TrustSection = () => {
                 <div className="bg-primary-light p-4 rounded-full w-16 h-16 mx-auto flex items-center justify-center">
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg">Made with Love</h3>
+                <h3 className="font-semibold text-lg">Hecho con Amor</h3>
                 <p className="text-muted-foreground">
-                  Designed by plant lovers, for plant lovers everywhere
+                  Diseñado por amantes de las plantas, para amantes de las plantas
                 </p>
               </div>
             </div>
 
             <div className="bg-gradient-card p-8 rounded-2xl shadow-medium mt-16 max-w-2xl mx-auto">
               <blockquote className="text-lg italic text-muted-foreground mb-4">
-                "Finally, a smart pot that actually understands plants. The AI diagnostics caught issues 
-                I never would have noticed. My plants have never been healthier!"
+                "Finalmente, una maceta inteligente que realmente entiende las plantas. Los diagnósticos de IA detectaron problemas 
+                que nunca habría notado. ¡Mis plantas nunca han estado más saludables!"
               </blockquote>
               <div className="flex items-center justify-center gap-3">
                 <div className="w-10 h-10 bg-primary-light rounded-full flex items-center justify-center">
-                  <span className="text-primary font-semibold text-sm">SJ</span>
+                  <span className="text-primary font-semibold text-sm">MG</span>
                 </div>
                 <div className="text-left">
-                  <div className="font-medium text-sm">Sarah Johnson</div>
-                  <div className="text-xs text-muted-foreground">Beta Tester</div>
+                  <div className="font-medium text-sm">María González</div>
+                  <div className="text-xs text-muted-foreground">Cliente Verificado</div>
                 </div>
               </div>
             </div>
